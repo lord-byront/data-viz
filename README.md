@@ -2,10 +2,17 @@
 Module 5 challenge
 
 
+Some inferences from the challenge: 
+1. at least in capomulin data, there is a correlation between the weight of the mouse and the size of the tumor, further analysis is recommended, conisdering that the tumor may have a correlation to the root cause of the weight (for example, alimentation); or maybe the drug is causing a side effect other than the reduction of the tumor size.
+
+2. The outlayed data, in my analysis was different to the given at the beginning of the challenge, please note that im guessing the limits considering the IQR * 1.5 as (plus and minus the Q3 and Q1). If this is not wrong, the possible oultlayed info is more evenly distributed into the 4 drugs that were analized
+
+3. The individual mouse analized (l590) (attached image) ![foo](https://github.com/user-attachments/assets/366afc1e-8185-4294-ae90-1143357b4737) has a decrease in the size of the tumor, than later comes back to a bigger size, suggesting a not so positive escenario. 
 
 
 
-Please note the consulted resources to achieve this module activity. 
+Please 
+note the consulted resources to achieve this module activity. 
 
 
 https://pandas.pydata.org/docs/reference/api/pandas.merge.html
